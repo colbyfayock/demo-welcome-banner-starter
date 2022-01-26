@@ -29,24 +29,26 @@
 
 .signup {
 
-  display: inline-flex;
-  border: solid 2px blueviolet;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
   border-radius: .4em;
+  background-color: blueviolet;
   padding: 2em;
-  margin: 0 0 3rem;
+  margin: 3rem 0;
 
   h2 {
     font-size: 1.8em;
-    margin-top: 0;
-    margin-bottom: .2em;
+    margin: 0;
   }
 
   a {
     display: inline-block;
-    color: white;
-    font-size: 1.2em;
+    color: blueviolet;
+    font-size: 1.4em;
     font-weight: 900;
-    background: blueviolet;
+    background: white;
     padding: .6em 1em;
     border: none;
     border-radius: .2em;
@@ -57,7 +59,7 @@
 .signupBody {
 
   p {
-    margin-top: .6em;
+    margin-top: .2em;
     margin-bottom: 0;
   }
 

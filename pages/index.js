@@ -15,21 +15,22 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          My Space Jelly Blog
-        </h1>
 
         <div className={styles.signup}>
           <div className={styles.signupBody}>
-            <h2>Sign up for my newsetter!</h2>
-            <p>Get the latest tutorials straight to your inbox.</p>
+            <h2>Welcome to Space Jelly!</h2>
+            <p>Sign up for my newsletter to get the latest tutorials straight to your inbox.</p>
           </div>
           <div className={styles.signupCta}>
             <p>
-              <a href="https://colbyfayock.com/newsletter">Learn More</a>
+              <a href="https://colbyfayock.com/newsletter">Sign Up for Newsletter</a>
             </p>
           </div>
         </div>
+
+        <h1 className={styles.title}>
+          My Space Jelly Blog
+        </h1>
 
         <ul className={styles.posts}>
           {posts.map(post => {
