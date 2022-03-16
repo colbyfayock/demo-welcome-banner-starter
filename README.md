@@ -1,9 +1,9 @@
-# Demo Blog Home Starter
+# Demo Welcome Banner Starter
 
 ## ⚡️ Quick Start
 
 ```bash
-yarn create next-app -e https://github.com/colbyfayock/demo-blog-home-starter
+yarn create next-app -e https://github.com/colbyfayock/demo-welcome-banner-starter
 # or
-npx create-next-app -e https://github.com/colbyfayock/demo-blog-home-starter
+npx create-next-app -e https://github.com/colbyfayock/demo-welcome-banner-starter
 ```
