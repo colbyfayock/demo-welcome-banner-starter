@@ -1,4 +1,4 @@
-# Demo Blog Home Starter
+# Demo Welcome Banner Starter
 
 ## ⚡️ Quick Start
 
