@@ -26,6 +26,7 @@ export default function Home() {
               <a href="https://colbyfayock.com/newsletter">Sign Up for Newsletter</a>
             </p>
           </div>
+          <button className={styles.signupHide}>Hide</button>
         </div>
 
         <h1 className={styles.title}>

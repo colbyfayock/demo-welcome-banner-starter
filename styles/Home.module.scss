@@ -32,6 +32,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
   color: white;
   border-radius: .4em;
   background-color: blueviolet;
@@ -75,6 +76,17 @@
     margin: 0;
   }
 
+}
+
+.signupHide {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: white;
+  background: none;
+  padding: .5em .8em;
+  border: none;
+  cursor: pointer;
 }
 
 .posts {
